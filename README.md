@@ -1,6 +1,6 @@
 # Reading Task EIP
 
-#### Objectives
+### Objectives
 
 Message-Oriented Middleware is among the most popular technologies used for connecting
 applications. The best practices in implementing messaging systems in enterprise application
@@ -11,7 +11,7 @@ One of the signature readings in this area is the book of Gregor Hohpe and Bobby
 Your task is to read [Chapter 3: Messaging Systems](https://www.enterpriseintegrationpatterns.com/docs/EnterpriseIntegrationPatterns_HohpeWoolf_ch03.pdf) and create a glossary of at least ten terms, related
 to System Integration, which you find essential.
 
-#### Glossary
+### Glossary
 
 - **Message Channels**
   Channels in this context refers to a virtual pipe that connects a sender to a receiver. Messaging applications transmit data through a Message Channel.
