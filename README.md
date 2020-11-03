@@ -23,7 +23,7 @@ to System Integration, which you find essential.
   Some actions often need to be performed on the message after it has been sent by its original sender but before it is received by its final receiver. The Pipes and Filters architecture describes how multiple processing steps can be chained together using channels.
 
   - **Pipes**
-    The messaging channels as described above.
+    The messaging channels on which the messages are being transmitted.
 
   - **Filters**
     The different processing steps in a processing task. These steps are connected by pipes.
