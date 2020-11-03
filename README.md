@@ -35,13 +35,13 @@ to System Integration, which you find essential.
   A message may need to be transformed during the journey from the sender to the receiver because the sender formats the message one way, but the receiver expects it to be formatted another way. To transform it, the message must go through an intermediate filter, a Message Translator, which converts the message from one format to another.
 
 - **Message Endpoints**
-  If an application doesn't have a built-in capability to interface with a messaging system, they need to have a layer of code tat knows both how the application words and how the messaging system works, and connect those two, so thay they can work together. This code is a set of coordinated message endpoints that enable the application to send and receive messages.
+  If an application doesn't have a built-in capability to interface with a messaging system, they need to have a layer of code that knows both how the application words and how the messaging system works, and connect those two, so that they can work together. This code is a set of coordinated message endpoints that enable the application to send and receive messages.
 
 - **Sender & Receiver**
   Two terms which are important to understand when it comes to message systems are 'Sender' & 'Receiver'. There will always be one of each in a message system as a message always _sends_ a message to a message channel which will be _received_ by another application. These terms are also known as 'Publisher and Consumer', 'Listener and Talker' and 'Publisher and Subscriber'.
 
 - **Pipeline Processing**
-  Pipeline processing is when multiple messages can be processed concurrently as they pass through individual stages. The image below describes well how a message that has been processed in one stage can be send directly to the next stage, and each unit can start processing the next message as soon as the first message has been passed on.
+  Pipeline processing is when multiple messages can be processed concurrently as they pass through individual stages. The image below describes well how a message that has been processed in one stage can be sent directly to the next stage, and each unit can start processing the next message as soon as the first message has been passed on.
 
   ![Pipeline Processing](PipelineProcessing.png)
 
